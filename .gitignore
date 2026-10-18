@@ -218,3 +218,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+data/raw/*.csv
+data/processed/*.duckdb
+data/processed/*.parquet
+!**/.gitkeep
